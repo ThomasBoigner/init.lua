@@ -56,5 +56,14 @@ require("lazy").setup(
     },
     {
         "tpope/vim-surround"
+    },
+    {
+        "nvim-neotest/neotest",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "nvim-treesitter/nvim-treesitter",
+            "antoinemadec/FixCursorHold.nvim",
+            "marilari88/neotest-vitest"
+        }
     }
 })
