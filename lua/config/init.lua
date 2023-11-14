@@ -55,9 +55,6 @@ require("lazy").setup(
         "windwp/nvim-ts-autotag"
     },
     {
-        "tpope/vim-surround"
-    },
-    {
         "nvim-neotest/neotest",
         dependencies = {
             "nvim-lua/plenary.nvim",
