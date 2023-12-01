@@ -8,7 +8,6 @@
 - lsp-zero
 - autoclose
 - autotag
-- vim surround
 - neotest
 - neotest-vitest
 - neotree
