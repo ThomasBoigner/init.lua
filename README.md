@@ -13,3 +13,4 @@
 - neotree
 - barbar
 - nordic.nvim color theme
+- prettier code formatter plugin
