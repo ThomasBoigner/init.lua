@@ -44,25 +44,25 @@ masonLspconfig.setup({
                 .. '/node_modules/@vue/typescript-plugin'
 
             require('lspconfig').tsserver.setup({
-            init_options = {
-                plugins = {
-                    {
-                        name = "@vue/typescript-plugin",
-                        location = vue_typescript_plugin,
-                        languages = {'javascript', 'typescript', 'vue'}
+                init_options = {
+                    plugins = {
+                        {
+                            name = "@vue/typescript-plugin",
+                            location = vue_typescript_plugin,
+                            languages = {'javascript', 'typescript', 'vue'}
+                        },
+                    }
+                },
+                filetypes = {
+                    'javascript',
+                    'javascriptreact',
+                    'javascript.jsx',
+                    'typescript',
+                    'typescriptreact',
+                    'typescript.tsx',
+                    'vue',
                     },
-                }
-            },
-        filetypes = {
-          'javascript',
-          'javascriptreact',
-          'javascript.jsx',
-          'typescript',
-          'typescriptreact',
-          'typescript.tsx',
-          'vue',
-        },
-      })
-    end,
+                })
+        end,
     },
 })
